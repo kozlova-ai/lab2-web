@@ -4,15 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Форма заполнения</title>
+  <link rel="stylesheet" href="style_contactMe.css">
 </head>
 <body>
   <form>
     <ul>
-      <li>
         <label for="name">Введите имя:</label>
-        <input type="text", id="name",name="your_name">
-      </li>
+        <input type="text", id="name", name="your_name">
+    </ul>
+    <ul>
+      <label for="surname">Введите фамилию:</label>
+      <input type="text", id="surname", name="your_surname">
+    </ul>
+    <ul>
+      <label for="email">Введите e-mail:</label>
+      <input type="email", id="email", name="your_email">
+    </ul>
+    <ul>
+      <label for="phone">Введите номер телефона</label>
+      <input type="text", id="phone", name="your_number_phone">
+    </ul>
+    <ul>
+      <label for="soglasie">Нажимая эту кнопку, я подтверждаю согласие обработки данных</label>
+      <input type="radio", id="soglasie", name="your_soglasie">
+    </ul>
+    <ul class="knopka">
+      <input type="submit", id="run", name="otpavit_formu", background="#eb8a5f">
     </ul>
   </form>
 </body>
