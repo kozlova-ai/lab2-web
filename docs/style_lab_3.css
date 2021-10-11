@@ -22,12 +22,16 @@ h2{
 }
 
 .spisok{
-  max-width: 250px;
-  margin-right: 520px
+  max-width: 500px;
+  margin-right: 400px
 }
 
 .row{
   margin-top: -30px;
   margin-left: -20px;
   display: flex;
+}
+
+.h4{
+  color:orangered;
 }
